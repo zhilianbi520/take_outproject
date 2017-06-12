@@ -12,7 +12,7 @@
 		<!--</router-link>-->
 		<div class="mycount_body">
 			<div class="borderRight"><router-link to='/integral'><i class="iconfont">&#xe648;</i>积分</router-link></div>
-			<div><router-link to='/integral'><i class="iconfont">&#xe6e6;</i>优惠</router-link></div>
+			<div><router-link to='/coupon'><i class="iconfont">&#xe6e6;</i>优惠</router-link></div>
 		</div>
 		<div class="mycount_bottom">
 			<router-link to='/setting'><div class="mycount_bt"><i class="iconfont">&#xe658;</i>设置</div></router-link>

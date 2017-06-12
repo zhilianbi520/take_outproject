@@ -23,6 +23,7 @@ import login from './component/login/login.vue'
 import setting from './component/setting/setting.vue'
 import integral from './component/integral/integral.vue'
 import register from './component/register/register.vue'
+import coupon from './component/coupon/coupon.vue'
 import basic_information from './component/basic_information/basic_information.vue'
 
 //全局注册组件
@@ -67,6 +68,10 @@ const router =new VueRouter({
     {
     		path: '/basic_information',
       	component: basic_information
+    },
+    {
+    		path: '/coupon',
+    		component: coupon
     },
     {
     		path: '*',
