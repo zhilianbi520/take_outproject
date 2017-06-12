@@ -1,0 +1,13 @@
+form{
+    margin-top:2%;
+    padding-left:2%;
+    >div{
+        display: flex;
+        align-items: center;
+        height:1.2rem;
+        >span{
+          flex:1;
+          color:#03a9f4;
+        }
+    }
+}

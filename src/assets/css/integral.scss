@@ -1,0 +1,78 @@
+/*----------字体,图标部分---------------*/
+
+@font-face {font-family: "iconfont";
+  src: url('../font/jfyh.eot?t=1496302608190'); /* IE9*/
+  src: url('../font/jfyh.eot?t=1496302608190#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/jfyh.woff?t=1496302608190') format('woff'), /* chrome, firefox */
+  url('../font/jfyh.ttf?t=1496302608190') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/jfyh.svg?t=1496302608190#iconfont') format('svg'); /* iOS 4.1- */
+}
+.icon-jifen:before { content: "\e674"; }
+.integral_body{
+    overflow-y: scroll;
+    background:#f4f4f4;
+}
+.integral_top{
+    display: flex;
+    flex-direction: row;
+    background:#03a9f4;
+    padding:2%;
+}
+.back_arrow{
+    width:32px;
+    height: 32px;
+    background:url(../img/back_arrow.png) no-repeat;
+}
+.integral_title{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color:#fff;
+}
+.list_body{
+    border-top:1px solid #ddd;
+    margin-top:2%;
+}
+.it_list{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding:2%;
+    margin-bottom:10px;
+    background:#fff;
+    border-bottom:1px solid #ddd;
+}
+.itlist_left{
+    display: flex;
+    flex-direction: column;
+    width:15%;
+    text-align: center;
+}
+.list_day{
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+}
+.it_list i{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left:2%;
+    color: #eb1e0f;
+    font-size: 30px;
+}
+.it_list .list_name{
+    font-size: 16px;
+    padding-left:2%;
+    color: #666;
+}
+.itlist_count{
+    display: flex;
+    margin-right:2%;
+    align-items: center;
+    font-size: 20px;
+    color: #069706;
+}
+

@@ -1,0 +1,10 @@
+$color:#333;
+.basic_inforbody{
+    display: flex;
+    flex-direction: column;
+    padding:2%;
+  div{
+      padding:2%;
+      color:$color;
+  }
+}
