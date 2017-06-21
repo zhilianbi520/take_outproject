@@ -91,6 +91,11 @@ const store = new Vuex.Store({
 		already_login(state){
 			state.count = 1;
 		}
+	},
+	actions:{
+		increment(context){
+			context.commit("already_login")
+		}
 	}
 })
 const app= new Vue({
